@@ -7,7 +7,7 @@ function Receipts(){
     const [receipts, setReceipts] = useState(records);
 
     return(
-        <div>
+        <div className="receipt">
             {receipts.map((receipt, index) => {
                 return <Receipt {...receipt} key={index} />;
             })}

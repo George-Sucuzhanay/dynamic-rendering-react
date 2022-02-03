@@ -1,3 +1,16 @@
 .receiptCard h3{
   color: purple;
+
+}
+.receiptCard{
+  border: 2px solid orange;
+  border-radius: 2px;
+  padding:10px;
+  
+}
+.receipt{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+ 
 }
