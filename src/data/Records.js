@@ -1,4 +1,4 @@
-const receipts =
+const records =
 [ {
   person: 'Andre',
   order: {
@@ -46,4 +46,4 @@ paid: true
 }
 ]
 
-export default receipts;
+export default records;
